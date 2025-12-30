@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Navprayas is dedicated to creating positive change through education, humanitarian initiatives, and social upliftment. Join us in our mission.">
+<meta name="keywords" content="Navprayas, Events, Education, Social Work, Humanitarian">
+<meta name="author" content="Navprayas">
+<link rel="canonical" href="https://navprayas.in/">
+<title>Donation Template</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!--External CSS -->
+<link rel="stylesheet" href="Donation.css"/>
+<link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="./style/event.css">
+<link rel="stylesheet" href="./style/allstyle.css">
+<link rel="stylesheet" href="./style/donationtrail.css">  
+<!--Google font-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&;display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="bg">
+<!-- Header -->
+<header class="main-header">
+<!-- Logo Section -->
+<div class="logo-container">
+<a href="index.html">
+<img src="https://www.navprayas.in/assets/images/logo-01.png" alt="Organization Logo">
+</a>
+</div> 
+<!-- Hamburger Icon for Mobile -->
+<div class="hamburger-menu" id="hamburger-menu">
+<i class="fas fa-bars"></i>
+</div>        
+<!-- Navigation Links -->
+<nav class="navigation" id="nav-menu">
+<div class="close-menu" id="close-menu">
+<i class="fas fa-times"></i>
+</div>
+<ul class="navigation-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="event.html">Events</a></li>
+<li><a href="team.html">Team</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+</ul>
+<div class="action-buttons">
+<button class="btn donate-btn">Donate</button>
+
+<!-- <button class="button notification-button">Notification</button> -->
+</div>
+</nav>
+</header>
+<!--Locator Div-->
+<main class="locator">
+<nav class="breadcrumb" id="Direction"><button>Home > Donation</button></nav>
+<!--Intro Section & Theme-->
+<section class="intro">
+<h1>Support Our Mission</h1>
+<p>Your donation helps us deliver real impact—education, healthcare, and community support. Choose an amount and complete your donation in minutes.</p>
+</section>
+<!-- Donation form Start -->
+<form id="donation-form" class="form">
+<div class="section-header">
+<h2>Donation Details</h2>
+<p>Select amount, frequency, and cause. Keep it simple—your help matters.</p>
+</div>
+<label>Donation Amount (₹) *</label>
+<div class="amount-group">
+<button type="button" class="amt-btn" data-amount="100">₹100</button>
+<button type="button" class="amt-btn" data-amount="500">₹500</button>
+<button type="button" class="amt-btn" data-amount="1000">₹1000</button>
+<button type="button" class="amt-btn" data-amount="2500">₹2500</button>
+<button type="button" class="amt-btn">Custom</button>
+</div>
+<input type="number" id="customAmount" placeholder="eg. ₹5000" class="input-field">
+<!--Donation frequency-->
+<div class="grid-2">
+<div>
+<label>Donation Frequency *</label>
+<div class="tab-group">
+<button type="button" class="tab">One Time</button>
+<button type="button" class="tab">Monthly</button>
+<button type="button" class="tab">Yearly</button>
+</div>
+</div>
+<!--Cause-->
+<div>
+<label>Choose a Cause *</label>
+<select id="cause" class="input-field">
+<option>Education</option>
+<option>Healthcare</option>
+<option>Community</option>
+</select> 
+</div>
+</div>
+<!-- Donor Information"> -->
+<div class="info-banner">
+<h3>Donor Information</h3>
+<p>We'll send your donation confirmation to your email/phone.</p>
+</div>
+<div class="grid-2">
+<div class="input-group">
+<label>Full Name *</label>
+<input type="text" placeholder="eg. Rahul Kumar" class="input-field" required=""> 
+</div>
+<div class="input-group">
+<label>Mobile Number *</label>
+<input type="tel" placeholder="eg. 12345-67890" class="input-field" required="">
+</div>
+<div class="input-group">
+<label>Email Address *</label>
+<input type="email" placeholder="eg. rahul@gmail.com" class="input-field" required="">
+</div>
+<!-- Country -->
+<div class="input-group">
+<label>Country *</label>
+<select class="input-field" id="Country">
+<option>India</option>
+<option>USA</option>
+<option>Germany</option>
+<option>Nepal</option>
+<option>Sri Lanka</option>
+<option>Italy</option>
+</select>
+</div>
+</div> 
+<!-- Tax -->
+<div class="checkbox">
+<input type="checkbox" id="tax80g">
+<label for="tax80g">
+<strong>Request 80G Tax</strong>
+<br>
+<small>Enable this to provide PAN and address for the receipt(India).</small>
+</label>
+</div>
+<!-- PAN Number-->
+<div id="taxFields" class="grid-2">
+<div class="input-group">
+<label>PAN Number *</label>
+<input type="text" placeholder="eg. ASBGH1651M" class="input-field">
+</div>
+<!-- City -->
+<div class="input-group">
+<label>City *</label>
+<select class="input-field">
+<option>Gaya Ji</option>
+<option>Patna</option>
+<option>Delhi</option>
+<option>Mumbai</option>
+<option>Bengaluru</option>
+<option>Chennai</option>
+<option>Hyderabad</option>
+<option>Kolkata</option>
+<option>Pune</option>
+<option>Jaipur</option>
+<option>Noida</option>
+<option>Kota</option>
+<option>Shimla</option>
+<option>Dubai</option>
+<option>New York</option>
+<option>Singapore</option>
+</select>
+</div>
+<div class="input-group">
+<label>Full Address *</label>
+<input type="text" placeholder="eg. Houseno., Street, Pincode" class="input-field">
+</div>
+<div class="input-group">
+<label>State *</label>
+<select class="input-field">
+<option>Bihar</option>
+<option>Maharashtra</option>
+<option>Karnataka</option>
+<option>Tamil Nadu</option>
+<option>Telangana</option>
+<option>West Bengal</option>
+<option>Rajasthan</option>
+<option>Uttar Pradesh</option>
+<option>Haryana</option>
+<option>Uttarakhand</option>
+<option>Rajasthan</option>
+<option>Punjab</option>
+</select>
+</div>
+<p class="disclaimer">We only use this for generating your tax receipt. *</p>
+</div>
+<div class="info-banner">
+<h3>Give a Short Message</h3>
+<p>Your words can bring hope, strength, and encouragement to those in need.</p>
+</div>
+<label>Message (Optional)</label>
+<textarea placeholder="Write a short note" class="input-field" rows="4"></textarea>
+<div class="checkbox-group">
+<input type="checkbox" id="terms" required>
+<label for="terms"><strong>I agree to Terms & Privacy Policy *</strong><br><small>By donating, you agree to our policies and consent to processing donation information.</small></label>
+</div>
+<div class="checkbox-group">
+<input type="checkbox" id="updates" required>
+<label for="updates"><strong>Send me updates</strong><br><small>Get impact stories and donation updates via Email/WhatsApp (optional).</small></label>
+</div> 
+<button class="btn" id="submit"><span><strong>Proceed to Donate</strong></span></button>
+
+</form>
+</main>
+<!-- footer -->
+<div class="footer">
+<div class="container">
+<div class="row">
+<!-- Footer Info Section -->
+<div class="footer-col">
+<img src="https://www.navprayas.in/assets/images/logo-01.png" alt="Logo" class="footer-logo">
+<p>
+Navprayas, established in 2000, promotes education, awareness, and humanitarian activities by bringing
+together students and professionals around society to create growth and positive change.
+</p>
+<div class="social-links">
+<!-- <a href="https://www.facebook.com/navprayas.np/"><i class="fab fa-facebook-f"></i></a> -->
+<a href="https://www.instagram.com/navprayas.np/"><i class="fab fa-instagram"></i></a>
+<a href="https://www.youtube.com/@Navprayas2k00"><i class="fab fa-youtube"></i></a>
+<a href="https://in.linkedin.com/company/navprayas"><i class="fab fa-linkedin-in"></i></a>
+<a href="https://whatsapp.com/channel/0029VbAgY9H9xVJX2uTCRz1v" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+<!-- Contact Us Section -->
+<div class="footer-col">
+<h4>Contact Us</h4>
+<div class="contact">
+<div class="phone">
+<i class="fa fa-phone"></i>
+<span> &nbsp;&nbsp;+91 9153223740</span>
+</div>
+<div class="email">
+<i class="fa fa-envelope"></i>
+<span>&nbsp;&nbsp;navprayas.np2000@gmail.com</span>
+</div>
+<div class="location">
+<i class="fa fa-map-marker"></i>
+<span>&nbsp;&nbsp;Navprayas, Main Office, House No. GE0090733, Ground Floor, Manpur Patwatoli, PO + PS Buniyadganj, Gaya-823003, Bihar, India</span>
+</div>
+</div>
+</div>
+<!-- Quick Links Section 1 -->
+<div class="footer-col">
+<h4>Key References</h4>
+<ul>
+<li><a href="privacypolicy.html">Privacy Policies</a></li>
+<li><a href="https://certi-verify.navprayas.in/">Verify Certificate</a></li>
+<li><a href="termscondition.html">Terms and Conditions</a></li>
+</ul>
+</div>
+<!-- Quick Links Section 2 -->
+<div class="footer-col">
+<h4>Important Links</h4>
+<ul>
+<li><a style="display: none;"><a href="donation.html">Donation</a></li>
+<li><a href="result.html">Results</a></li>
+<li><a href="suggestion.html">Suggestions</a></li>
+<li><a href="FAQ.html">FAQs</a></li>
+<!-- <li><a href="#">Resource</a></li> -->
+</ul>
+</div>
+</div>
+</div>
+<div class="copyright">
+ <p>Copyright ©2026 by Navprayas. All Rights Reserved</p>
+</div>
+</div>
+<!-- Scroll to Top Button in the Footer -->
+<div class="scroll-to-top-container">
+<button id="scrollToTopBtn" class="scroll-to-top-btn"><i class="fas fa-arrow-up"></i></button>
+</div>
+<script src="./scripts/menuToggle.js"></script>
+<script src="./scripts/scroll.js"></script>
+<script src="script.js"></script>
+</body>          
+</html>            
+            
+               
+           
+
+            
+            
+
+            
+            
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+  
+                   
+                
+
+        
+        
+         
+      
+
+
+
+
+
+
+                    
+                    
+                    
+                        
+                    
+                
+               
+    
+    
+           
+     
+
+
+
+
+
+
+
+
+
+
+
+    
+ 
