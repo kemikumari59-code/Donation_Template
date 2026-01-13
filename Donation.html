@@ -44,8 +44,7 @@
 <li><a href="team.html">Team</a></li>
 <li><a href="gallery.html">Gallery</a></li>
 </ul>
-<div class="action-buttons">
-<button class="btn donate-btn">Donate</button>
+
 
 <!-- <button class="button notification-button">Notification</button> -->
 </div>
@@ -74,26 +73,9 @@
 <button type="button" class="amt-btn">Custom</button>
 </div>
 <input type="number" id="customAmount" placeholder="eg. ₹5000" class="input-field">
-<!--Donation frequency-->
-<div class="grid-2">
-<div>
-<label>Donation Frequency *</label>
-<div class="tab-group">
-<button type="button" class="tab">One Time</button>
-<button type="button" class="tab">Monthly</button>
-<button type="button" class="tab">Yearly</button>
-</div>
-</div>
-<!--Cause-->
-<div>
-<label>Choose a Cause *</label>
-<select id="cause" class="input-field" title="Choose a Cause">
-<option>Education</option>
-<option>Healthcare</option>
-<option>Community</option>
-</select> 
-</div>
-</div>
+
+
+
 <!-- Donor Information"> -->
 <div class="info-banner">
 <h3>Donor Information</h3>
@@ -116,12 +98,12 @@
 <div class="input-group">
 <label>Country *</label>
 <select class="input-field" id="Country" title="Select your country">
-<option>India</option>
-<option>USA</option>
-<option>Germany</option>
-<option>Nepal</option>
-<option>Sri Lanka</option>
-<option>Italy</option>
+<option value="IN">India </option>
+<option value="US">USA</option>
+<option value="Ge">Germany</option>
+<option value="Ne">Nepal</option>
+<option value="Sr">Sri Lanka</option>
+
 </select>
 </div>
 </div> 
@@ -144,22 +126,11 @@
 <div class="input-group">
 <label>City *</label>
 <select class="input-field" title="Select your city">
-<option>Gaya Ji</option>
-<option>Patna</option>
-<option>Delhi</option>
-<option>Mumbai</option>
-<option>Bengaluru</option>
-<option>Chennai</option>
-<option>Hyderabad</option>
-<option>Kolkata</option>
-<option>Pune</option>
-<option>Jaipur</option>
-<option>Noida</option>
-<option>Kota</option>
-<option>Shimla</option>
-<option>Dubai</option>
-<option>New York</option>
-<option>Singapore</option>
+<option value="Ga">Gaya Ji</option>
+<option value="Pa">Patna</option>
+<option value="De">Delhi</option>
+<option value="Mu">Mumbai</option>
+
 </select>
 </div>
 <div class="input-group">
@@ -169,18 +140,18 @@
 <div class="input-group">
 <label>State *</label>
 <select class="input-field" title="Select your state">
-<option>Bihar</option>
-<option>Maharashtra</option>
-<option>Karnataka</option>
-<option>Tamil Nadu</option>
-<option>Telangana</option>
-<option>West Bengal</option>
-<option>Rajasthan</option>
-<option>Uttar Pradesh</option>
-<option>Haryana</option>
-<option>Uttarakhand</option>
-<option>Rajasthan</option>
-<option>Punjab</option>
+<option value="Bi">Bihar</option>
+<option value="Ma">Maharashtra</option>
+<option value="Ka">Karnataka</option>
+<option value="Ta">Tamil Nadu</option>
+<option value="Te">Telangana</option>
+<option value="We">West Bengal</option>
+<option value="Ra">Rajasthan</option>
+<option value="Ut">Uttar Pradesh</option>
+<option value="Ha">Haryana</option>
+<option value="Ut">Uttarakhand</option>
+<option value="Ra">Rajasthan</option>
+<option value="Pa">Punjab</option>
 </select>
 </div>
 <p class="disclaimer">We only use this for generating your tax receipt. *</p>

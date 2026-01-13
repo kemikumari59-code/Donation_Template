@@ -1,0 +1,15 @@
+{
+"State": [
+{ "value": "Bi", "label": "Bihar" },
+{ "value": "Ma", "label": "Maharashtra" },
+{ "value": "Ka", "label": "Karnataka" },
+{ "value": "Ta", "label": "Tamil Nadu" },
+{ "value": "Te", "label": "Telangana" },
+{ "value": "We", "label": "West Bengal" },
+{ "value": "Ra", "label": "Rajasthan" },
+{ "value": "Ut", "label": "Uttar Pradesh" },
+{ "value": "Ha", "label": "Haryana" },
+{ "value": "Uk", "label": "Uttarakhand" },
+{ "value": "Pa", "label": "Punjab" }
+]
+}

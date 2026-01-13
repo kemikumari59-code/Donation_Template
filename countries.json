@@ -1,0 +1,9 @@
+{
+  "Country": [
+{ "value": "IN", "label": "India" },
+{ "value": "US", "label": "USA" },
+{ "value": "Ge", "label": "Germany" },
+{ "value": "Ne", "label": "Nepal" },
+{ "value": "Sr", "label": "Sri Lanka" }
+]
+}
